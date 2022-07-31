@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        app:cardCornerRadius="3dp"
+        app:cardElevation="3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" />
+
+        <TextView
+            android:id="@+id/HomeTextview"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="3dp"
+            android:padding="3dp"
+            android:text="Home - Last week"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="50dp"
+            android:weightSum="4">
+
+            <LinearLayout
+                android:layout_width="8dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="Cases"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/idHomeCases"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="Number of\nCases"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="8dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="Deaths"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/idHomeDeaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="Number of\nDeaths"
+                    android:textAlignment="center"
+                    android:textColor="@color/red"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="8dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="Tests"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/idHomeTesting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="41dp"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="Number of\nTests"
+                    android:textAlignment="center"
+                    android:textColor="@color/teal_200"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="8dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="Population"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/idHomePopulation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="Number of\npeople"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        app:cardCornerRadius="3dp"
+        app:cardElevation="3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="114dp"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/SearchTextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="3dp"
+            android:padding="3dp"
+            android:text="Search results"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="50dp"
+            android:weightSum="4">
+
+            <LinearLayout
+                android:layout_width="8dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="Cases"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/idRegionCases"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="Number of\nCases"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="8dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="Deaths"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <TextView
+                    android:id="@+id/idRegionDeaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="Number of\nDeaths"
+                    android:textAlignment="center"
+                    android:textColor="@color/red"
+                    android:textSize="12sp" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="8dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="Tests"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/idRegionTesting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="41dp"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="Number of\nTests"
+                    android:textAlignment="center"
+                    android:textColor="@color/teal_200"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="8dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="Population"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/idRegionPopulation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="Number of\npeople"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <Spinner
+        android:id="@+id/spinner_regions"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:entries="@array/Regions"
+        android:gravity="center_horizontal"
+        android:padding="5dp"></Spinner>
+
+    <Spinner
+        android:id="@+id/spinner_weeks"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:entries="@array/Weeks"
+        android:gravity="center_horizontal"
+        android:padding="5dp"></Spinner>
+
+    <LinearLayout
+        android:id="@+id/page_buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+
+        >
+
+        <Button
+            android:id="@+id/text"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="Search"
+            android:text="Search"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:orientation="horizontal"
+        android:paddingTop="0dp"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="357dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="showLog"
+            android:text="Show log" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="211dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="Home"
+            android:text="Home"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Regions">
+        <item>Select Region</item>
+        <item>Åland</item>
+        <item>Southwest Finland Hospital District</item>
+        <item>Satakunta Hospital District</item>
+        <item>Kanta-Häme Hospital District</item>
+        <item>Pirkanmaa Hospital District</item>
+        <item>Päijät-Häme Hospital District</item>
+        <item>Kymenlaakso Hospital District</item>
+        <item>South Karelia Hospital District</item>
+        <item>South Savo Hospital District</item>
+        <item>Itä-Savo Hospital District</item>
+        <item>North Karelia Hospital District</item>
+        <item>North Savo Hospital District</item>
+        <item>Central Finland Hospital District</item>
+        <item>South Ostrobothnia Hospital District</item>
+        <item>Vaasa Hospital District</item>
+        <item>Central Ostrobothnia Hospital District</item>
+        <item>North Ostrobothnia Hospital District</item>
+        <item>Kainuu Hospital District</item>
+        <item>Länsi-Pohja Hospital District</item>
+        <item>Lappi Hospital District</item>
+        <item>Helsinki and Uusimaa Hospital District</item>
+        <item>All areas</item>
+
+    </string-array>
+
+</resources>
